@@ -1,0 +1,171 @@
+body{
+    font-family: Roboto,Arial;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#gameboard{
+    background-image: url("Map.png");
+    background-size: cover;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items:center;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius:10px;
+}
+.room{
+    width:10px;
+    height:10px;
+    padding:40px;
+    border-radius: 30px;
+    background-color: rgb(200,200,200);
+    border-width:5px;
+    border-color:rgb(150,150,150);
+    border-style:solid;
+}
+.vroom{
+    width:30px;
+    height:30px;
+    border-radius: 30px;
+    background-color: rgb(0,0,0);
+}
+#room4{
+    text-align: center;
+    width:10px;
+    height:10px;
+    padding:40px;
+    border-radius: 50px;
+    background-color: rgb(100,100,210);
+    border-width:5px;
+    border-color:rgb(50,50,160);
+    border-style:solid;
+}
+.hiddenroom{
+    width:10px;
+    height:10px;
+    padding:40px;
+    border-radius: 30px;
+    background-color: rgb(0,0,0);
+    border-width:5px;
+    border-color:rgb(40,40,40);
+    border-style:solid;
+}
+.terminal{
+    background-color: rgb(0,0,0);
+    color:rgb(50, 160, 50);
+    width:30vw;
+    height:70vh;
+    border-width: 10px;
+    border-color:rgb(100,100,100);
+    border-radius: 20px;
+    border-style:solid;
+    z-index: 10;
+}
+#entity{
+    background-color:rgb(200,30,30);
+    width:10px;
+    height:10px;
+    padding:20px;
+    border-radius: 30px;
+    display:"block";
+    position:absolute;
+}
+.inVent{
+    display:none;
+}
+#terminalScreen{
+    position:absolute;
+}
+.terminal p{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:35px;
+    cursor: pointer;
+}
+#batteryText{
+    position:absolute;
+    text-align: center;
+    width:148px;
+    color:rgb(50,140,10);
+    top: 540px;
+    padding-left: 2px;
+    font-size: 25px;
+    background-color:rgb(0,50,0);
+    border-radius:10px;
+    border-width: 5px;
+    border-color: rgb(100,100,100);
+    border-style: solid;
+}
+#topDoor{
+    position:absolute;
+    width:9px;
+    height:50px;
+    background-color:rgb(200,100,100);
+    top:168px;
+    left:566px;
+}
+
+#sideDoor{
+    position:absolute;
+    width:50px;
+    height:9px;
+    background-color:rgb(200,100,100);
+    top:264px;
+    left:619px;
+}
+#bottomDoor{
+    position:absolute;
+    width:9px;
+    height:85px;
+    background-color:rgb(200,100,100);
+    top:318px;
+    left:566px;
+}
+.room1{
+    top: 94px;
+    left: 543px;
+    display:block;
+}
+.room2{
+    top: 94px;
+    left: 695px;
+    display: none;
+}
+.room3{
+    top: 94px;
+    left: 844px;
+    display: block;
+}
+.room5{
+    top: 243px;
+    left: 695px;
+    display: block;
+}
+.room6{
+    top: 243px;
+    left: 844px;
+    display: block;
+}
+.room7{
+    top: 392px;
+    left: 543px;
+    display: none;
+}
+.room8{
+    top: 392px;
+    left: 695px;
+    display: block;
+}
+.room9{
+    top: 392px;
+    left: 844px;
+    display: block;
+}
